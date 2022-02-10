@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DoAn</string>
+    <string name="home_text">Home</string>
+    <string name="list_text">List</string>
+    <string name="user_text">User</string>
+    <string name="cart_text">Cart</string>
+</resources>

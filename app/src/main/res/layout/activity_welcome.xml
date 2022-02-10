@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundwelcome1">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#A6FFFFFF"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="XIN CHÀO"
+                android:gravity="center"
+                android:textSize="60sp"
+                android:textStyle="bold"
+                android:textColor="#E91E63"
+                android:layout_marginTop="60dp">
+
+            </TextView>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logofooddelevery"
+                android:layout_marginTop="60dp"
+                >
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đặt đồ ăn nhanh"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textColor="#E91E63"
+                android:textStyle="bold"
+                android:layout_marginTop="60dp">
+
+            </TextView>
+            <Button
+                android:id="@+id/btnWelcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bắt đầu"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:backgroundTint="#99FA1E23"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
